@@ -20,3 +20,6 @@ sleep 10
 
 cd ..
 rm -rf .webHost
+
+while true
+done
