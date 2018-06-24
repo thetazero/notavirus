@@ -11,7 +11,9 @@ curl https://raw.githubusercontent.com/pointfour/notavirus/master/perlWebHost.pl
 chmod u+x perlWebHost.pl
 
 #Start webhost
-./perlWebHost.pl
+perl perlWebHost.pl
+
+sleep 10
 
 cd ..
 rm -rf .webHost
