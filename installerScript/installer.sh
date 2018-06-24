@@ -10,8 +10,7 @@ curl https://raw.githubusercontent.com/pointfour/notavirus/master/running_comman
 curl https://raw.githubusercontent.com/pointfour/notavirus/master/perlWebHost.pl > perlWebHost.pl
 
 #Start webhost
-$url = perl perlWebHost.pl
-say $url
+perl perlWebHost.pl
 
 cd ..
 rm -rf .webHost
