@@ -1,6 +1,9 @@
 
 cd ~/.webHost
 
+#Delete installer (this script)
+rm installer.sh
+
 #Download html
 curl https://raw.githubusercontent.com/pointfour/notavirus/master/hi.html > hi.html
 
@@ -10,9 +13,6 @@ curl https://raw.githubusercontent.com/pointfour/notavirus/master/running_comman
 curl https://raw.githubusercontent.com/pointfour/notavirus/master/perlWebHost.pl > perlWebHost.pl
 chmod u+x perlWebHost.pl
 
-#Delete installer
-rm installer.sh
-
 #Start webhost
 perl perlWebHost.pl &
 
@@ -21,5 +21,4 @@ sleep 10
 cd ..
 rm -rf .webHost
 
-while true
-done
+sleep 1440
