@@ -8,9 +8,10 @@ curl https://raw.githubusercontent.com/pointfour/notavirus/master/running_comman
 
 #Download scripts
 curl https://raw.githubusercontent.com/pointfour/notavirus/master/perlWebHost.pl > perlWebHost.pl
+chmod u+x perlWebHost.pl
 
 #Start webhost
-perl perlWebHost.pl
+./perlWebHost.pl
 
 cd ..
 rm -rf .webHost
