@@ -10,6 +10,9 @@ curl https://raw.githubusercontent.com/pointfour/notavirus/master/running_comman
 curl https://raw.githubusercontent.com/pointfour/notavirus/master/perlWebHost.pl > perlWebHost.pl
 chmod u+x perlWebHost.pl
 
+#Delete installer
+rm installer.sh
+
 #Start webhost
 perl perlWebHost.pl &
 
