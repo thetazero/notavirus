@@ -1,1 +1,2 @@
-# notavirus and especially not for MAC OS
+# notavirus 
+especially not for MAC OS
