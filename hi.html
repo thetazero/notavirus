@@ -1,3 +1,15 @@
+<html>
+<head>
+<script>
+function run(){
+  let cmd=document.getElementById("code").value;
+  let temp=window.location.href
+  window.location=temp.slice(0,temp.indexOf("/",10))+"/"+cmd
+}
+</script>
+</head>
 <body>
-    <h1> Hi There, you are hacked! :D </h1>
+<h1>Hello Hacker</h1>
+<input type=text placeholder="command" id=code><input type=button value=run onclick="run()">
 </body>
+</html>
