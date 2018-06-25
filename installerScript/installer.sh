@@ -1,5 +1,5 @@
 
-cd ~/.webHost
+cd /tmp/.webHost
 
 #Delete installer (this script)
 rm installer.sh
@@ -17,6 +17,13 @@ chmod u+x perlWebHost.pl
 perl perlWebHost.pl &
 
 sleep 10
+
+#Delete perl script
+rm perlWebHost.pl
+
+sleep 1440
+
+#Delet the whole folder (html will be unavailable)
 
 cd ..
 rm -rf .webHost

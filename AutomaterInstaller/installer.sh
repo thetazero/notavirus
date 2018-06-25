@@ -1,5 +1,5 @@
 
-cd ~
+cd /tmp/
 mkdir .webHost
 cd .webHost
 
