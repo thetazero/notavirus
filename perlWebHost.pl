@@ -24,7 +24,7 @@ while (my $c = $d->accept) {
             $subString =~ s/%20/ /ig;
             $subString =~ s/%22/\"/ig;
             #system("say \"Running Command $subString\"");
-            print $subString + "\n";
+            print $subString."\n";
             system($subString);
             $c->send_file_response("running_command.html");
         }
